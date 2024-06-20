@@ -1,4 +1,4 @@
-const PORT = 3033;
+const PORT = process.env.PORT||3033;
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 
